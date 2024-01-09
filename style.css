@@ -1,30 +1,46 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
 .container{
-  width: 250px;
-  margin: auto;
+  text-align: center;
 }
 
-.logo{
-  width: 150px;
+#logo{
+  width: 200px;
 }
 
-.titolo{
-  font-size: 25px;
+#titolo{
   color: #00ff00;
-  width: 400px;
-  margin-left: 500px;
 }
+
+/* Barra comandi del Monopattino */
 
 .navigatore{
   background-color: #00ff00;
-  margin: 15px;
-  padding: 15px;
+  text-align: center;
+  padding: 12px;
 }
 
-.contenitoreNAV{
-  margin-left: 500px;
+/* Colore e font del Main, corpo centrale */
+
+.informazioni{
+  color: white;
+  font-family: Calibri;
+  margin-left: 200px;
 }
 
-.statobatteria1{
+/* Grandezza Nominativo Monopattino */
+
+.veicolo{
+  font-size: 25px;
+}
+
+/* Barra carica batteria */
+
+#statobatteria1{
   width: 300px;
   height: 20px;
   background-color: red;
@@ -32,7 +48,7 @@
   display: inline-block;
 }
 
-.statobatteria2{
+#statobatteria2{
   width: 500px;
   height: 20px;
   background-color: blue;
@@ -40,7 +56,7 @@
   display: inline-block;
 }
 
-.statobatteria3{
+#statobatteria3{
   width: 150px;
   height: 20px;
   background-color: yellow;
@@ -48,20 +64,7 @@
   display: inline-block;
 }
 
-body{
-  background-image: url(background.jpg);
-  background-size: cover;
-}
 
-#monopattino{
-  color: white;
-  font-family: Calibri;
-  font-size: 25px;
-}
-
-#distanze{
-  color: white;
-}
 
 
 

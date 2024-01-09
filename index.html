@@ -5,47 +5,57 @@
     <title>Coding Challenge William Mancaniello</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
+
+<!-- Elementi centrali, logo e titolo -->
     <div class="container">
-      <header>
-        <!--logo-->
-        <img class="logo" src="logo.png">
-      </header>
+        <img id="logo" src="logo.png">
+        <h1 id="titolo"><strong>Taking Booleaners from A to B<strong></h1>
     </div>
 
-    <div class="titolo"><strong>Taking Booleaners from A to B<strong></div>
-
+<!-- Barra comandi monopattino -->
     <nav class="navigatore">
-      <!-- comandi monopattino -->
-      <section class="contenitoreNAV">
       <input class="tasti" type="submit" name="Prenota" value="Prenota">
       <input class="tasti" type="submit" name="Termina" value="Termina Prenotazione">
       <input class="tasti" type="submit" name="LuciON" value="Accendi Luci">
-      </section>
-
     </nav>
 
-    <main>
-      <div><input type="checkbox"><span id="monopattino">Monopattino Gino22</span></div>
-      <span id="distanze">→ Via Guadalametri-a 220 metri da te</span><br>
-      <span id="distanze">stato carica:</span><br>
-      <div class="statobatteria1"></div>
+<!-- Stato Monopattini -->
+    <main class="informazioni">
+<!-- Monopattino Gino22 -->
+      <div>
+        <input type="checkbox">
+        <span class="veicolo">Monopattino Gino22</span>
+        <br>
+        <span> → Via Guadalametri-a 220 metri da te</span>
+        <br>
+        <span>stato carica:</span>
+        <br>
+        <span id="statobatteria1"></span>
+      </div>
+<!-- Monopattino Mike24 -->
+      <div>
+        <input type="checkbox">
+        <span class="veicolo">Monopattino Mike24</span>
+        <br>
+        <span> → Via Ricciardoni-a 420 metri da te</span>
+        <br>
+        <span>stato carica:</span>
+        <br>
+        <span id="statobatteria2"></span>
+      </div>
+<!-- Monopattino Fede154 -->
+      <div>
+        <input type="checkbox">
+        <span class="veicolo">Monopattino Fede154</span>
+        <br>
+        <span> → Via Mentarini-a 490 metri da te</span>
+        <br>
+        <span>stato carica:</span>
+        <br>
+        <span id="statobatteria3"></span>
     </main>
-
-    <main>
-      <div><input type="checkbox"><span id="monopattino">Monopattino Mike24</span></div>
-      <span id="distanze">→ Via Ricciardoni-a 420 metri da te</span><br>
-      <span id="distanze">stato carica:</span><br>
-      <div class="statobatteria2"></div>
-    </main>
-
-    <main>
-      <div><input type="checkbox"><span id="monopattino">Monopattino Fede154</span></div>
-      <span id="distanze">→ Via Mentarini-a 490 metri da te</span><br>
-      <span id="distanze">stato carica:</span><br>
-      <div class="statobatteria3"></div>
-    </main>
-
 
   </body>
 </html>
