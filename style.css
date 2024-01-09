@@ -1,8 +1,19 @@
 body{
   background-image: url(background.jpg);
   background-size: cover;
-  opacity: 1;
 }
+
+section{
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px; */
+  }
+
 
 .container{
   text-align: center;
